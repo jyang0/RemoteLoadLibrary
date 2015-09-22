@@ -9,7 +9,7 @@ Add RemoteLoadLibrary.lib and remote.h to your project
 #### Dynamic linking
 Use LoadLibrary to import the following:
 ```
-DWORD WINAPI RemoteLoadLibrary(HANDLE hProcess, wstring dllname);
+HMODULE WINAPI RemoteLoadLibrary(HANDLE hProcess, wstring dllname);
 BOOL WINAPI RemoteFreeLibrary(HANDLE hProcess, wstring dllname);
 ```
 

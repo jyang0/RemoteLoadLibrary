@@ -1,0 +1,7 @@
+LIBRARY RemoteLoadLibrary
+EXPORTS
+	RemoteLoadLibrary		@1
+	RemoteFreeLibrary		@2
+	InjectByNameW			@3
+	UnloadByNameW			@4
+
